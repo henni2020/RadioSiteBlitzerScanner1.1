@@ -4,6 +4,7 @@ import static com.example.radiositeblitzerscanner11.Constants.ALARM2_UNIQUE_ID;
 import static com.example.radiositeblitzerscanner11.Constants.ALARM1_UNIQUE_ID;
 
 import com.example.radiositeblitzerscanner11.AlarmReceiver;
+import com.example.radiositeblitzerscanner11.Constants;
 import com.example.radiositeblitzerscanner11.MyBroadcastReceiver;
 import com.example.radiositeblitzerscanner11.NotificationHelper;
 import com.example.radiositeblitzerscanner11.tools.AppTools;
@@ -13,6 +14,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -171,7 +173,7 @@ public class SettingsSub2FragAutoScan extends Fragment {
         if( switchOnOff ) {
             // switch==On : active, install alarm
             //String inputMessage = "Alarm aufstehen";
-//            Log.d(LOG_TAG,"Install Alarm"+"\n" );
+            Log.d(Constants.LOG_TAG,"Install Alarm"+String.format("%2d:%2d:%d", hour, minute, alarmId )+"\n" );
 
             AlarmReceiver.context = thisContext;
 
@@ -237,7 +239,7 @@ public class SettingsSub2FragAutoScan extends Fragment {
         toastMessage = "";
 //        Log.d(LOG_TAG, Thread.currentThread().getStackTrace()[2].getClassName()+" ("+Thread.currentThread().getStackTrace()[2].getLineNumber()+")"
 //                +"\n--- setAlarms12()"+"\n" );
-//        Log.d(LOG_TAG,"configs="+configs.toString()+"\n" );
+        Log.d(Constants.LOG_TAG,"configs="+configs.toString()+"\n" );
 
         // Alarm 1
         activeSwitch = configs.get("autoTimeActive1").equals("true");

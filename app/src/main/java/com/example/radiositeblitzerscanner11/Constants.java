@@ -2,8 +2,7 @@ package com.example.radiositeblitzerscanner11;
 
 public interface Constants
 {
-    Boolean DEVELOPMENT_MODE = true;
-
+    Boolean DEVELOPMENT_MODE = true; // dev or prod
 
     //String FFH_BLITZER_URL = "https://modul.shop/blitzer.html";
     //String FFH_BLITZER_URL = "https://modul.shop/blitzer2.html";
