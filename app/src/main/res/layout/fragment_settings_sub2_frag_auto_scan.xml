@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <!-- +++++++++++++++++++++ autotime 1 +++++++++++++++++++++++++ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C7D6F1"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switchAutoTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_autotime1_active" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#C7D6F1"
+            android:orientation="vertical">
+
+            <TimePicker
+                android:id="@+id/timepickerAutotime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+        </LinearLayout>
+
+        <!-- +++++++++++++++++++++ autotime 2 +++++++++++++++++++++++++ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AED19F"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switchAutoTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_autotime2_active" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#AED19F"
+            android:orientation="vertical">
+
+            <TimePicker
+                android:id="@+id/timepickerAutotime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_autotime2_active"
+                android:timePickerMode="spinner" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtButtonSave" />
+
+
+    </LinearLayout>
+</ScrollView>

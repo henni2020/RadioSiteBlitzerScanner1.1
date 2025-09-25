@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_blitzer"
+        android:icon="@drawable/ic_photo_camera_24dp"
+        android:title="@string/title_blitzer" />
+
+    <item
+        android:id="@+id/navigation_traffic_jam"
+        android:icon="@drawable/ic_traffic_jam_24dp"
+        android:title="@string/title_traffic_jam" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="@string/title_settings" />
+
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RadioSiteBlitzerScanner1.1</string>
+    <string name="title_blitzer">Blitzer</string>
+    <string name="title_traffic_jam">Verkehr</string>
+    <string name="title_settings">Einstellungen</string>
+
+    <string name="txtButtonSearchTerms">Suchworte</string>
+    <string name="xtxButtonAutoScan">Autom. Abruf</string>
+    <string name="xtxButtonDiv">Weiteres</string>
+    <string name="txtButtonSave">Speichern</string>
+
+    <string name="headlineSearchTerms">Suchworte</string>
+
+    <string name="txt_autotime1_active">Prüfung Arbeitsweg (ein/aus)</string>
+    <string name="txt_autotime2_active">Prüfung Heimweg (ein/aus)</string>
+
+    <string name="txtScanBeginn">Alle Meldungen</string>
+    <string name="txtScanBeginnFiltered">Gefilterte Meldungen</string>
+    <string name="txtScanNow">Scanne WebSite</string>
+
+    <string name="txtNotificationTitleFormat">"%d Blitzer gefunden %s"</string>
+
+    <string name="txt_message_save_autoscan_config">Daten gespeichert, Automatik gesetzt</string>
+</resources>
