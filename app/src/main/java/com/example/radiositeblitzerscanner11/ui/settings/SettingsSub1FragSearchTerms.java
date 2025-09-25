@@ -44,6 +44,7 @@ public class SettingsSub1FragSearchTerms extends Fragment {
 
                         HashMap<String, String> configs = readConfigsFromFormular( view );
                         AppTools.saveSearchTermsConfigs( configs, requireContext() );
+
                     }
                 });
 

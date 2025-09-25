@@ -2,14 +2,14 @@ package com.example.radiositeblitzerscanner11;
 
 public interface Constants
 {
-    Boolean DEVELOPMENT_MODE = false;
+    Boolean DEVELOPMENT_MODE = true;
 
 
     //String FFH_BLITZER_URL = "https://modul.shop/blitzer.html";
     //String FFH_BLITZER_URL = "https://modul.shop/blitzer2.html";
 
     // Service URLs
-    final String FFH_BLITZER_URL_DEV = "https://modul.shop/blitzer10meldungen.html";
+    final String FFH_BLITZER_URL_DEV = "https://modul.shop/blitzer.html";
     final String FFH_TRAFFIC_URL_DEV = "https://modul.shop/ffh_verkehr.html";
 
     // Service URLs für Tests
